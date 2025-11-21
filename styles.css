@@ -103,7 +103,7 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-  padding: 40px 10%;
+  padding: 123px 10%;
 }
 
 .section-title {
@@ -248,4 +248,35 @@ footer {
 /* Add this to your styles.css */
 .social-links a:hover img[alt="Discord"] {
   filter: drop-shadow(0 0 5px #5865F2); /* Adds a purple glow */
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* =========================================
+   MOBILE STYLES (Paste at bottom of CSS)
+   ========================================= */
+
+@media (max-width: 768px) {
+    
+    /* 1. Stack the Logo and Menu on top of each other */
+    nav {
+        flex-direction: column; /* Changes from Row to Column */
+        height: auto;          /* Allows the navbar to grow taller */
+        padding-bottom: 15px;  /* Add space at the bottom */
+    }
+
+    /* 2. Add space between the Logo and the Links */
+    nav ul {
+        margin-top: 15px;      /* Push links down away from logo */
+        justify-content: center; /* Center the links */
+        width: 100%;
+        padding-left: 0;
+        gap: 15px;             /* Adjust space between words */
+    }
+
+    /* 3. Make the links slightly smaller so they fit better */
+    nav ul li a {
+        font-size: 16px;       /* Slightly smaller text for mobile */
+    }
 }
