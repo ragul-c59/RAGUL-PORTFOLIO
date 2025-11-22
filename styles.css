@@ -247,7 +247,7 @@ footer {
 
 /* Add this to your styles.css */
 .social-links a:hover img[alt="Discord"] {
-  filter: drop-shadow(0 0 5px #5865F2); /* Adds a purple glow */
+  filter: drop-shadow(0 0 5px #00bfff); /* Adds a purple glow */
 }
 html{
   scroll-behavior: smooth;
