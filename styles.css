@@ -204,13 +204,50 @@ footer {
 }
 
 
+/* 1. For the flat vector project icons (Login & Gallery) */
 .project-card img {
-  width: 100%;        
-  height: auto;        
+  width: 101%;        
+  height: 345px;        
+  object-fit: cov;  /* CHANGE THIS FROM 'cover' TO 'contain' */
   border-radius: 10px; 
   margin-bottom: 15px;
   display: block;      
 }
+
+/* 2. For your avatar project video */
+.project-card video {
+  width: 101%;        
+  height: 350px;        
+  object-fit: cover;    /* Keeps the video filling the card space beautifully */
+  border-radius: 10px; 
+  margin-bottom: 15px;
+  display: block;      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  width: 100%;        
+  height: auto;        
+  border-radius: 10px; 
+  margin-bottom: 15px;
+  display: block;  */  
+
 
 
 
